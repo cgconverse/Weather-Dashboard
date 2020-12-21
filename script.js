@@ -28,5 +28,8 @@ $.ajax({
     //Convert temperature to Fahrenheit
     var tempF = (response.main.temp - 273.15) * 1.80 + 32;
 
+    //Add temperature content to html
+    $(".temp").text("Temperature (K) " + response.main.temp);
+    $(".tempF").text("Temperature (F) " + tempF.toFixed(2));  
 
 }
