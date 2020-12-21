@@ -21,4 +21,10 @@ $.ajax({
     console.log(response);
 
     //Transfer content to HTML
+    $(".city").html("<h1>" + response.name + " Weather Details</h1>");
+    $(".wind").text("Wind Speed: " + response.wind.speed);
+    $(".humidity").text("Humidity: " + response.main.hummidity);
+     
+
+
 }
