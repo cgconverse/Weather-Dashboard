@@ -24,7 +24,9 @@ $.ajax({
     $(".city").html("<h1>" + response.name + " Weather Details</h1>");
     $(".wind").text("Wind Speed: " + response.wind.speed);
     $(".humidity").text("Humidity: " + response.main.hummidity);
-     
+
+    //Convert temperature to Fahrenheit
+    var tempF = (response.main.temp - 273.15) * 1.80 + 32;
 
 
 }
