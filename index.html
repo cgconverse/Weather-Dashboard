@@ -12,15 +12,24 @@
 
     <div id="overlay"></div>
     <div id= "mainimage">
-      
-    <!-- Retrieved data will be dumped here -->
-    <input type="text" placeholder="enter your city" id="userinput">
-    <button type="button" class="search"></button>
 
-    <div class="city"></div>
-    <div class="wind"></div>
-    <div class="humidity"></div>
-    <div class="temp"></div>
+    !<!--Search bar-->
+    <!-- <input type="text" placeholder="enter your city" id="userinput">
+    <button type="button" class="btn btn-primary">Primary</button> -->
+
+    <nav class="navbar navbar-light bg-light">
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Enter a city" aria-label="Search">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </nav>
+    
+    <!-- Retrieved data will be dumped here -->
+    <div class="container">
+      <div class="city"></div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+      <div class="temp"></div>
     
     <div class="row">
         <div class="col-sm-6">
@@ -84,6 +93,7 @@
           </div>
       </div>
     </div>
+  </div>
     
     
     <script src="https://code.jquery.com/jquery-3.4.1.js"integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>

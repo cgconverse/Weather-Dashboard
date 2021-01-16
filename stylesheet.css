@@ -1,25 +1,19 @@
- /* body { 
-    background-image: url("http://wallpaper-house.com/data/out/12/wallpaper2you_577070.jpg");
+ body { 
+    background-image: url(/assets/img/toy\ story\ clouds.jpg);
     background-color: powderblue;
-   } */
+   };
 
-   body { 
-    font-family: 'Lato', sans-serif;
-    background: url(/assets/img/toy\ story\ clouds.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.card {
+    border-radius: 12px;
+};
+
+.container {
+    margin-top: 2rem;
 }
 
-   /* body { 
-    font-family: 'Lato', sans-serif;
-    background-image: url('http://wallpaper-house.com/wallpaper-id-577070.php') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}; */
+
+
+   
 
 
 
