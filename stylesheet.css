@@ -9,9 +9,17 @@
 };
 
 .form-control {
-    width: 20%;
+    width: 10%;
 }
 
+.row1 {
+    width: 50%;
+};
+
+.row2 {
+    margin: 20px;
+    width: 50%;
+}
 
 
    
