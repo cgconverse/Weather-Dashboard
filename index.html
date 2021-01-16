@@ -10,22 +10,23 @@
 </head>
 <body>
 
-    <div id="overlay"></div>
-    <div id= "mainimage">
-
-    !<!--Search bar-->
-    <!-- <input type="text" placeholder="enter your city" id="userinput">
-    <button type="button" class="btn btn-primary">Primary</button> -->
-
-    <nav class="navbar navbar-light bg-light">
+    
+  <div class="container">
+    <!--Search bar-->
+    
+  <form class="form-inline">
+    <input type="search" placeholder="enter your city" id="userinput" aria-label="Search">
+    <button type="button" class="search btn btn-primary">Search</button>
+  </form>
+    <!-- <nav class="navbar navbar-light bg-light">
       <form class="form-inline">
         <input class="form-control mr-sm-2" type="search" placeholder="Enter a city" aria-label="Search">
-        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-outline-primary float-left" type="submit">Search</button>
       </form>
-    </nav>
+    </nav> -->
     
     <!-- Retrieved data will be dumped here -->
-    <div class="container">
+    
       <div class="city"></div>
       <div class="wind"></div>
       <div class="humidity"></div>
