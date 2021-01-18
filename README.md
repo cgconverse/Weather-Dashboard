@@ -1,9 +1,5 @@
 # Weather-Dashboard
 
-Button to trigger API call for user input
+## Description
 
-Append to cities div w/ JQuery 
-
-for (i=0; response.length; i += 8 >){
-    
-}
+A weather dashboard that displays a 5-day forecast for whichever city a user types in.
